@@ -1,0 +1,33 @@
+# .gitignore - Exclude sensitive files from git
+
+# Credentials and secrets
+credentials.md
+credentials.local.md
+secrets.txt
+.env
+.env.local
+*.ppk
+*.pem
+*.key
+*.keyfile
+
+# System files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Local documentation
+DEPLOYMENT-CREDENTIALS.md
+SERVER-CREDENTIALS.md
+LOCAL-*.md
+
+# SSH keys
+.ssh/
+id_rsa
+id_rsa.pub
+
+# AWS
+.aws/
+aws-backup*
